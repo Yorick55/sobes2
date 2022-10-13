@@ -1,0 +1,8 @@
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\bin\Debug\sobes2.exe.config
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\bin\Debug\sobes2.exe
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\bin\Debug\sobes2.pdb
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\obj\Debug\sobes2.csproj.AssemblyReference.cache
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\obj\Debug\sobes2.csproj.SuggestedBindingRedirects.cache
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\obj\Debug\sobes2.csproj.CoreCompileInputs.cache
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\obj\Debug\sobes2.exe
+C:\Users\boris\Desktop\cpp_lessons\sobes2\sobes2\obj\Debug\sobes2.pdb
