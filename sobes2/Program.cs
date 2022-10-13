@@ -36,7 +36,7 @@ namespace sobes2
         }
         public double howFastWillGo(double length)
         {
-            return  speed*length;
+            return  length/speed;
         }
         public double kilometersEstimatedWithLoad()
         {
@@ -129,20 +129,26 @@ namespace sobes2
             sportCr.showInfo();
             Console.WriteLine();
 
+            double tank = 30;
+            double lenghtOfRide = 300;
             PassengerCar passengerCr = new PassengerCar(5, 10, 90, 100);
             passengerCr.showInfo();
-            Console.WriteLine("Can ride with current tank fillment= " +passengerCr.kilometersEstimated(30));
-            Console.WriteLine("Can ride with current tank fillment and passengers= " + passengerCr.kilometersEstimatedWithLoad(30));
+            Console.WriteLine("How fast in hours will go= "+passengerCr.howFastWillGo(lenghtOfRide));
+            Console.WriteLine("Can ride with current tank fillment= " +passengerCr.kilometersEstimated(tank));
+            Console.WriteLine("Can ride with current tank fillment and passengers= " + passengerCr.kilometersEstimatedWithLoad(tank));
             passengerCr.addPassengers(3);
-            Console.WriteLine("Can ride with current tank fillment and passengers= " + passengerCr.kilometersEstimatedWithLoad(30));
+            Console.WriteLine("Can ride with current tank fillment and passengers= " + passengerCr.kilometersEstimatedWithLoad(tank));
             Console.WriteLine();
 
+            tank = 30;
+            lenghtOfRide = 100;
             TrackCar trackCr = new TrackCar(10000, 30, 100, 90);
             trackCr.showInfo();
-            Console.WriteLine("Can ride with current tank fillment= " + trackCr.kilometersEstimated(30));
-            Console.WriteLine("Can ride with current tank fillment and load= " + trackCr.kilometersEstimatedWithLoad(30));
+            Console.WriteLine("How fast in hours will go= " + trackCr.howFastWillGo(lenghtOfRide));
+            Console.WriteLine("Can ride with current tank fillment= " + trackCr.kilometersEstimated(tank));
+            Console.WriteLine("Can ride with current tank fillment and load= " + trackCr.kilometersEstimatedWithLoad(tank));
             trackCr.addLoad(8000);
-            Console.WriteLine("Can ride with current tank fillment and load= " + trackCr.kilometersEstimatedWithLoad(30));
+            Console.WriteLine("Can ride with current tank fillment and load= " + trackCr.kilometersEstimatedWithLoad(tank));
             Console.WriteLine();
 
 
